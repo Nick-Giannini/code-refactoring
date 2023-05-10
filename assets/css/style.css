@@ -134,7 +134,25 @@ p {
     max-width: 150px;
 }
 
-.search-engine-optimization {
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+
+
+
+.content div{
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -159,9 +177,18 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
+} */
+
+
+
+
+.content img{
+    max-height: 200px;
 }
 
-.search-engine-optimization img {
+/* These classes are children of the content parent and the images are the only onces in that div. Able to replace with the up code. Saving 10 lines of code.
+ */
+/* .search-engine-optimization img {
     max-height: 200px;
 }
 
@@ -171,7 +198,7 @@ p {
 
 .social-media-marketing img {
     max-height: 200px;
-}
+} */
 
 
 .content h2{
