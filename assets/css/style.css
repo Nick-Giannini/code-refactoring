@@ -173,6 +173,15 @@ p {
     max-height: 200px;
 }
 
+
+.content h2{
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/*
+These classes are children of the content parent and the h2's are the only onces in that div. Able to replace with the up code. Saving 15 lines of code.
+
 .search-engine-optimization h2 {
     margin-bottom: 20px;
     font-size: 36px;
@@ -186,7 +195,7 @@ p {
 .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
-}
+} */
 
 .footer {
     padding: 30px;
