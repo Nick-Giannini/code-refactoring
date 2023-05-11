@@ -8,6 +8,10 @@ body {
     background-color: #d9dcd6;
 }
 
+
+
+/* The div with the header class was rename to follow semantic naming. 
+
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -22,7 +26,27 @@ body {
 
 .header h1 .seo {
     color: #d9dcd6;
+} */
+
+header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
 }
+
+h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+.seo {
+    color: #d9dcd6;
+}
+
+
+
+/* Div was changed to nav to follow semantic naming
 
 .header div {
     padding-top: 15px;
@@ -37,6 +61,21 @@ body {
 }
 
 .header div ul li {
+    display: inline-block;
+    margin-left: 25px;
+} */
+
+nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    /* not needed in nav
+    list-style-type: none; */
+}
+
+li {
     display: inline-block;
     margin-left: 25px;
 }
@@ -69,11 +108,12 @@ p {
     margin-left: 25px;
 }
 
-.content {
+
+/* .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
-}
+} */
 
 .benefits {
     margin-right: 20px;
@@ -134,16 +174,19 @@ p {
     max-width: 150px;
 }
 
-.content {
+
+
+
+
+main {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
 
-
-
-.content div{
+/* Removed the divs and combined the classes into one */
+.what-to-improve{
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -182,7 +225,7 @@ p {
 
 
 
-.content img{
+main img{
     max-height: 200px;
 }
 
@@ -201,7 +244,7 @@ p {
 } */
 
 
-.content h2{
+main h2{
     margin-bottom: 20px;
     font-size: 36px;
 }
