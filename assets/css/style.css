@@ -108,76 +108,6 @@ p {
     margin-left: 25px;
 }
 
-
-/* .content {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
-} */
-
-.benefits {
-    margin-right: 20px;
-    padding: 20px;
-    clear: both;
-    float: right;
-    width: 20%;
-    height: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #2589bd;
-}
-
-.benefit-lead {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-lead h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-lead img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-
-
-
-
 main {
     width: 75%;
     display: inline-block;
@@ -194,6 +124,7 @@ main {
     background-color: #0072bb;
     color: #ffffff;
 }
+
 
 /* .search-engine-optimization {
     margin-bottom: 20px;
@@ -223,15 +154,13 @@ main {
 } */
 
 
-
-
-main img{
+.what-to-improve img{
     max-height: 200px;
 }
 
-/* These classes are children of the content parent and the images are the only onces in that div. Able to replace with the up code. Saving 10 lines of code.
- */
-/* .search-engine-optimization img {
+/* Combined the classes into one.
+
+.search-engine-optimization img {
     max-height: 200px;
 }
 
@@ -244,14 +173,13 @@ main img{
 } */
 
 
-main h2{
+.what-to-improve h2{
     margin-bottom: 20px;
     font-size: 36px;
 }
 
 /*
-These classes are children of the content parent and the h2's are the only onces in that div. Able to replace with the up code. Saving 15 lines of code.
-
+Combined the classes into one.
 .search-engine-optimization h2 {
     margin-bottom: 20px;
     font-size: 36px;
@@ -267,13 +195,99 @@ These classes are children of the content parent and the h2's are the only onces
     font-size: 36px;
 } */
 
-.footer {
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+
+.after-change{
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/* .benefit-lead {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.benefit-brand {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.benefit-cost {
+    margin-bottom: 32px;
+    color: #ffffff;
+} */
+
+.after-change h3{
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+
+/* 
+.benefit-lead h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.benefit-brand h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.benefit-cost h3 {
+    margin-bottom: 10px;
+    text-align: center;
+} */
+
+
+.after-change img{
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+
+
+/* .benefit-lead img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+.benefit-brand img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+.benefit-cost img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+ */
+
+
+
+
+
+
+footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
 
-.footer h2 {
+footer h4 {
     font-size: 20px;
 }

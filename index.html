@@ -4,7 +4,10 @@
 <head>
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="./assets/css/style.css">
-    <title>website</title>
+
+    <!-- need a more convient way to tell the 2 websites apart. Especially as the changes got small and smaller -->
+    <title>Refactor Code</title>
+
 </head>
 
 <body>
@@ -27,7 +30,6 @@
     1. Added Alt to images. W3 says that decorations should get alt="" but i didnt know if that would have been acceptable. I added information about the image and let it be known that no important information is being conveyed to the user and that its a decoration. 
     
     2.No IDs are being called in the CSS. Removed the unused IDs. 
-
     3. Changed div class=content to main 
     4. Changed divs to sections and removed the classes
 
@@ -59,35 +61,49 @@
     </main>
 
     
-    <div class="benefits">
-        <div class="benefit-lead">
+    <section class="benefits">
+        <section class="after-change">
             <h3>Lead Generation</h3>
             <img src="./assets/images/lead-generation.png" />
             <p>
                 Inbound strategies for lead generation require less work for your business, bringing customers directly to your website.
             </p>
-        </div>
-        <div class="benefit-brand">
+        </section>
+        <section class="after-change">
             <h3>Brand Awareness</h3>
             <img src="./assets/images/brand-awareness.png" />
             <p>
                 Users find your business through paid and organic searches, increasing the search ranking and visibility for your business.
             </p>
-        </div>
-        <div class="benefit-cost">
+        </section>
+        <section class="after-change">
             <h3>Cost Management</h3>
             <img src="./assets/images/cost-management.png" />
             <p>
                 As the search ranking for your business increases, your advertising costs decrease, and you no longer need to advertise your page.
             </p>
-        </div>
-    </div>
-    <div class="footer">
+        </section>
+    </section>
+
+
+
+    <footer>
+        <h4>Made with ❤️️ by Horiseon</h4>
+        <p>
+            &copy; 2019 Horiseon Social Solution Services, Inc.
+        </p>
+    </footer>
+
+
+
+    <!-- <div class="footer">
         <h2>Made with ❤️️ by Horiseon</h2>
         <p>
             &copy; 2019 Horiseon Social Solution Services, Inc.
         </p>
-    </div>
+    </div> -->
+
+
 </body>
 
 </html>
