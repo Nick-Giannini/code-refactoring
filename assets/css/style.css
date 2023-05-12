@@ -280,7 +280,7 @@ Combined the classes into one.
 
 
 
-
+/* removed the class and just used the element name */
 footer {
     padding: 30px;
     clear: both;
